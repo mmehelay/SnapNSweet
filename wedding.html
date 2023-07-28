@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Capture unforgettable moments with our Toronto 360 Photo Booth. Step into an immersive experience where every angle is captured, creating stunning 360-degree photos. Book now and make your event truly memorable.">
+  <title>360 Photobooth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;700&family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="wedding_style.css">
+  <link rel="icon" type="image/png" href="images/Favicon.png"/>
+</head>
+<body>
+
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="images/websitelogo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            Services
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="wedding.html" class="cs-li-link cs-drop-link cs-active">Weddings</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="corporate.html" class="cs-li-link cs-drop-link">Corporate Events</a>
+                            </li>
+                             <li class="cs-drop-li">
+                                <a href="social.html" class="cs-li-link cs-drop-link">Social Activites</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cs-li">
+                        <a href="gallery.html" class="cs-li-link">
+                            Gallery
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact_us.html" class="cs-li-link">
+                            Contact Us
+                        </a>
+                    </li>
+                      <li class="cs-li hidden">
+                        <a href="" class="cs-li-link">
+                            Book Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Book Now</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+         
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106-1112">
+    <div class="cs-container">
+        <span class="cs-int-title">Weddings</span>
+        <div class="cs-breadcrumbs">
+            <a href="index.html" class="cs-link">Services</a>
+            <a href="" class="cs-link cs-active">Weddings</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="images/wedding-gda4f05a1e_1280_s_m.jpg">
+        <source media="(min-width: 601px)" srcset="images/wedding-gda4f05a1e_1280_s.jpg">
+        <img decoding="async" src="images/wedding-gda4f05a1e_1280.jpg" alt="mechanic" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-1095-1112">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="images/wedding_s_m.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="images/wedding_s_2.jpg">
+                <img loading="lazy" decoding="async" src="images/wedding.jpeg" alt="mechanic" width="542" height="608">
+            </picture>
+            <!--Eclipses-->
+         
+            <!--Stripe background-->
+            <img class="cs-stripes" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/stripes-long.svg" alt="stripes" width="522" height="608" aria-hidden="true">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Wedding Photobooth Services</span>
+            <h2 class="cs-title">Ultimate 360 Photobooth Experience for Your Toronto Wedding</h2>
+            <p class="cs-text">
+              Congratulations on your upcoming wedding! At Snap 'N Sweet, we understand the importance of making your big day extraordinary and unforgettable. Our 360 photobooth services are designed to add an extra touch of magic to your wedding celebration, capturing the essence of love, joy, and cherished moments with your loved ones.
+            </p>
+            <ul class="cs-list">
+                <li class="cs-li">Immersive Experience</li>
+                <li class="cs-li">Personalized Touches</li>
+                <li class="cs-li">Digital Sharing Made Easy</li>
+                <li class="cs-li">Stress-Free Booking</li>
+                <li class="cs-li">Professional Attendants</li>
+            </ul>
+            <div class="cs-info">
+                <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/profile-2.png" alt="profile" width="52" height="52">
+                <div class="cs-flex">
+                    <span class="cs-name">Justin James</span>
+                    <span class="cs-desc">CEO-Founder of Snap 'N Sweet</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+                                
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-580">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="images/wedding_s_m_2.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="images/wedding_s.jpg">
+            <img loading="lazy" decoding="async" src="images/wedding.jpeg" alt="room" width="494" height="700">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Why Us</span>
+            <h2 class="cs-title">Choose Our 360 Photobooth for Your Wedding</h2>
+            <p class="cs-text">
+               Imagine the laughter and smiles as your guests interact with our cutting-edge 360 photobooth. From intimate shots with family to hilarious poses with friends, our photobooth creates heartwarming memories that will be cherished for years to come. The captivating visual storytelling complements your wedding photographer's work, providing a unique keepsake for all.
+            </p>
+            <p class="cs-text">
+               We offer flexible package options to accommodate weddings of all sizes and styles. Whether you're hosting an intimate gathering or a grand celebration, we have a package that fits your needs and budget. From a two-hour package to a full-day rental, our services are customizable to match your wedding schedule perfectly.
+            </p>
+            <a href="" class="cs-button-solid">Get Free Quote</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact Us</span>
+            <h2 class="cs-title">Get It Done With Us Today</h2>
+            <p class="cs-text">
+                Let's make your wedding day even more special with the enchanting touch of our 360 photobooth
+            </p>
+            <a href="" class="cs-button-solid">Book Your Photobooth</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="images/Hero_m.jpg">
+        <source media="(min-width: 601px)" srcset="images/Hero_s.jpg">
+        <img loading="lazy" decoding="async" src="images/Hero.jpeg" alt="cabinets" width="1920" height="1280" aria-hidden="true">
+    </picture>
+</section>
+
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-841">
+ <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/websitelogo.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+                Select Snap N Sweet as your premier photobooth company and elevate every event to excellence. Our team delivers exceptional craftsmanship, skillfully transforming spaces to capture picture-perfect moments with precision. 
+            </p>
+            <div class="cs-social">
+                <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fface-grey1.svg" alt="facebook" width="11" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit twitter profile" href="">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Finstragm-grey3.svg" alt="twitter" width="6" height="11">
+                </a>
+                <a class="cs-social-link" aria-label="visit instagram profile" href="https://www.instagram.com/snapnsweet/">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ftwitter-grey1.svg" alt="instagram" width="11" height="11">
+                </a>
+            </div>
+        </div>
+        <!-- Links -->
+        <div class="cs-ul-wrapper">
+            <span class="cs-header">Quick Links</span>
+            <ul class="cs-ul cs-ul-1">
+                <li class="cs-li">
+                    <a class="cs-link" href="index.html">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="about.html">About</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="">Services</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="">Gallery</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="contact_us.html">Contact</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="blog.html">Blog</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="">Book Now</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-ul-wrapper">
+            <!-- Contact Info -->
+            <span class="cs-header">Contact Information</span>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <!--Make this link go to the google page-->
+                    <a class="cs-link" href="" target="_blank">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fclock-grey.svg" alt="clock icon" width="20" height="20">
+                        M-F 8am – 9:30pm
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="tel:555-497-1900">
+                        <img class="cs-contact-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-grey.svg" alt="phone icon" width="20" height="20">
+                        647-779-7369
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="mailto:office@email.com">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmessage-grey.svg" alt="email icon" width="20" height="20">
+                        info@snapnsweet.ca
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <!--Make this link go to the google page-->
+                    <a class="cs-link" href="" target="_blank">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fpin-grey.svg" alt="pin icon" width="20" height="20">
+                        53 Kenfin Ave, Scarborough, ON M1S 4E8
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cs-bottom">
+        <span class="cs-credit">
+            © Copyright 2023 <a href="" class="cs-credit-link" target="_blank">Enigma Digital</a>
+        </span>
+        <div class="cs-bottom-links">
+            <a href="" class="cs-bottom-link">Privacy Policy</a>
+            <a href="" class="cs-bottom-link">Terms Of Use</a>
+        </div>
+    </div>
+</footer>
+                                
+     
+<script type="text/Javascript" src="script.js"></script>                           
+</body>
+</html>
